@@ -7,11 +7,11 @@ Library        String
 Library        DatabaseLibrary
 
 *** Variables ***
-${DBHost}         chl2019.com
-${DBName}         a33d41d6_o2osite
-${DBPass}         LogosPodiaBeefEmber86
+${DBHost}         
+${DBName}         
+${DBPass}         
 ${DBPort}         3306
-${DBUser}         a33d41d6_o2os
+${DBUser}         
 
 *** Test Cases ***
 MainProgram

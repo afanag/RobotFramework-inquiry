@@ -13,7 +13,6 @@ CSVLoopTest
     ${contents}=     Get File    data.csv
     @{lines}=        Split to lines  ${contents}
 	:FOR       ${line}  IN  @{lines}
-	# \    Log    ${line}
 	\    @{COLUMNS}=                     Split String             ${LINE}        separator=,
 	\    ${URL}=                         Get From List            ${COLUMNS}     0
 	\    ${firstName}=                   Get From List            ${COLUMNS}     1

@@ -1,0 +1,1172 @@
+1562723758669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.YjepOx4pFLmn"
+1562723760931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562723760932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562723760932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562723760932	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562723765775	Marionette	INFO	Listening on port 57776
+1562723766102	Marionette	WARN	TLS certificate errors will be ignored for this session
+[[Parent 9804, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+ask_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1364, Chrom[Parent 9804, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7208, Chrome_ChildThread] WARNING: pipe 1562723814603	Marionette	INFO	Stopped listening on port 57776
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8736, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562723855906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.hcfJmTbrvXST"
+1562723856477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562723856477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562723856477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562723856478	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562723858791	Marionette	INFO	Listening on port 57844
+1562723859134	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562723868754	Marionette	INFO	Stopped listening on port 57844
+[Child 11484, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6784, Chrome_ChildThread] W
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562723890537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.2amaCwv8I13s"
+1562723891023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562723891024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562723891024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562723891024	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562723893211	Marionette	INFO	Listening on port 57897
+1562723893267	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562723896584	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896850	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896865	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896870	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896873	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896878	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896878	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896882	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896883	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896886	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896887	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896894	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723896895	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723901907	Marionette	INFO	Stopped listening on port 57897
+[Child 6748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6748, Chrome_Ch[Parent 1364, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14532, Chrome_Ch[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562723945206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.pJ3vfr78pxZm"
+1562723945785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562723945785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562723945785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562723945785	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562723948399	Marionette	INFO	Listening on port 57947
+1562723948536	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562723951395	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723951655	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723951666	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723951685	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723951686	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 12488, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11292, Chrome_ChildThrea[Child 6368, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[Child 6368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6368, Chrome_ChildThread] WARNING: p[Parent 12488, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15312, Chro1562723956817	Marionette	INFO	Stopped listening on port 57947
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562723967697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.dcoIrVbcIUkC"
+1562723968178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562723968178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562723968179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562723968179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562723970259	Marionette	INFO	Listening on port 57994
+1562723970434	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562723974033	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723974306	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723974320	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723974335	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723974337	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562723979345	Marionette	INFO	Stopped listening on port 57994
+[Parent 7260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12520, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/ch[Parent 7260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14012, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14012, Chrome_ChildThread] WARNING:[GPU 586
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+8, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562724078378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.LxcQeYeP8nGA"
+1562724078889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562724078889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562724078889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562724078889	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562724081017	Marionette	INFO	Listening on port 58053
+1562724081119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562724084667	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724084926	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724084935	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724084953	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724084955	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724089964	Marionette	INFO	Stopped listening on port 58053
+[Child 3304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3304, Chrome_Chil[Parent 14920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11256, Chrome_Chil[Parent 14920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12976, Chrome_Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562724114510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.gukcrvIUeApM"
+1562724115027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562724115027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562724115027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562724115027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562724117725	Marionette	INFO	Listening on port 58102
+1562724117755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562724121732	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724122018	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724122037	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724122054	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724122059	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724127063	Marionette	INFO	Stopped listening on port 58102
+[Parent 2372, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/i[Child 5848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5848, Chrome_C[Parent 2372, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14552, Chrome[GP
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562724177684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.5girNWSrWSOq"
+1562724178178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562724178178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562724178178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562724178178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562724180393	Marionette	INFO	Listening on port 58150
+1562724180436	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562724185048	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724185306	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724185313	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724185330	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724185332	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10032,[Child 844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15[Parent 13856, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9540, Chrome_C1562724191254	Marionette	INFO	Stopped listening on port 58150
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562724421389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.nnWcGuDkJQSB"
+1562724421907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562724421907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562724421907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562724421907	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562724424179	Marionette	INFO	Listening on port 58368
+1562724424628	Marionette	WARN	TLS certificate errors will be ignored for this session
+1562724436674	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724436938	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724436946	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724436959	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724436961	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1562724441968	Marionette	INFO	Stopped listening on port 58368
+[Child 6592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562725245534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.TL3Se7EqDfed"
+1562725246097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562725246097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562725246098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562725246098	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562725248524	Marionette	INFO	Listening on port 58826
+1562725248779	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562725305389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.gEn7OHSHB67y"
+1562725306308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562725306308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562725306308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562725306308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshot1562725306615	Marionette	INFO	Stopped listening on port 58826
+[GPU 4940, Chr
+1562725308760	Marionette	INFO	Listening on port 58965
+1562725309256	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562725323658	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:18239
+ajax@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:13722
+@https://za.chinahomelife247.com/common/expo/js/web/goods/goods_dialog.js:91:7
+dispatch@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:14129
+add/v.handle@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:10866
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://za.chinahomelife247.com"
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Error while calling actor 'stylesheet's method 'getMediaRules'" "can't access dead object"
+console.error: "get ownerNode@resource://devtools/server/actors/stylesheets.js:260:5\ngetCSSRules@resource://devtools/server/actors/stylesheets.js:365:9\n_getMediaRules@resource://devtools/server/actors/stylesheets.js:506:17\ngetMediaRules@resource://devtools/server/actors/stylesheets.js:496:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Error while calling actor 'stylesheet's method 'getText'" "can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "getSheetText@resource://devtools/server/actors/stylesheets.js:131:7\n_getText@resource://devtools/server/actors/stylesheets.js:473:12\ngetText@resource://devtools/server/actors/stylesheets.js:456:17\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\nsend@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3193:23\najax@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:3014:15\ngetAjax@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:451:11\n@https://za.chinahomelife247.com/buyer/register.html?prd=10151027---2:371:9\nc@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1125:15\nfireWith@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:1168:96\nready@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:139:57\nq@https://za.chinahomelife247.com/common/js/plug-in/jquery.js:41:88\n"
+console.error: "Protocol error (unknownError): can't access dead object"
+console.error: "Protocol error (unknownError): can't access dead object"
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn1.child1/context18' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/client/shared/telemetry.js, line 652: TypeError: event is undefined
+[Parent 11292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14196, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src[Child 12540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t[Parent 11292, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562725706680	Marionette	INFO	Stopped listening on port 58965
+[GPU 1172
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562725712933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.1VqbAbgXu3ij"
+1562725713472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562725713472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562725713472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562725713472	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562725715767	Marionette	INFO	Listening on port 59499
+1562725716179	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+console.error: "Error while calling actor 'highlighter's method 'showBoxModel'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "getWindowDimensions@resource://devtools/shared/layout/utils.js:747:17\n_haveWindowDimensionsChanged@resource://devtools/server/actors/highlighters/auto-refresh.js:231:31\nupdate@resource://devtools/server/actors/highlighters/auto-refresh.js:244:36\n_startRefreshLoop@resource://devtools/server/actors/highlighters/auto-refresh.js:290:10\nshow@resource://devtools/server/actors/highlighters/auto-refresh.js:120:10\nshowBoxModel@resource://devtools/server/actors/highlighters.js:186:37\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "Error while calling actor 'highlighter's method 'showBoxModel'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "getWindowDimensions@resource://devtools/shared/layout/utils.js:747:17\n_haveWindowDimensionsChanged@resource://devtools/server/actors/highlighters/auto-refresh.js:231:31\nupdate@resource://devtools/server/actors/highlighters/auto-refresh.js:244:36\n_startRefreshLoop@resource://devtools/server/actors/highlighters/auto-refresh.js:290:10\nshow@resource://devtools/server/actors/highlighters/auto-refresh.js:120:10\nshowBoxModel@resource://devtools/server/actors/highlighters.js:186:37\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "Error while calling actor 'highlighter's method 'showBoxModel'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "getWindowDimensions@resource://devtools/shared/layout/utils.js:747:17\n_haveWindowDimensionsChanged@resource://devtools/server/actors/highlighters/auto-refresh.js:231:31\nupdate@resource://devtools/server/actors/highlighters/auto-refresh.js:244:36\n_startRefreshLoop@resource://devtools/server/actors/highlighters/auto-refresh.js:290:10\nshow@resource://devtools/server/actors/highlighters/auto-refresh.js:120:10\nshowBoxModel@resource://devtools/server/actors/highlighters.js:186:37\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "Error while calling actor 'highlighter's method 'showBoxModel'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "getWindowDimensions@resource://devtools/shared/layout/utils.js:747:17\n_haveWindowDimensionsChanged@resource://devtools/server/actors/highlighters/auto-refresh.js:231:31\nupdate@resource://devtools/server/actors/highlighters/auto-refresh.js:244:36\n_startRefreshLoop@resource://devtools/server/actors/highlighters/auto-refresh.js:290:10\nshow@resource://devtools/server/actors/highlighters/auto-refresh.js:120:10\nshowBoxModel@resource://devtools/server/actors/highlighters.js:186:37\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "Error while calling actor 'highlighter's method 'showBoxModel'" "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+console.error: "getWindowDimensions@resource://devtools/shared/layout/utils.js:747:17\n_haveWindowDimensionsChanged@resource://devtools/server/actors/highlighters/auto-refresh.js:231:31\nupdate@resource://devtools/server/actors/highlighters/auto-refresh.js:244:36\n_startRefreshLoop@resource://devtools/server/actors/highlighters/auto-refresh.js:290:10\nshow@resource://devtools/server/actors/highlighters/auto-refresh.js:120:10\nshowBoxModel@resource://devtools/server/actors/highlighters.js:186:37\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIDOMWindowUtils.getScrollbarSize]"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562719311956%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/client/shared/telemetry.js, line 652: TypeError: event is undefined
+JavaScript error: resource://devtools/shared/protocol.js, line 1299: Error: Connection closed, pending request to server1.conn0.child1/domnode745, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol.js:1386:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol.js:1510:19
+TextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:48:21
+do@resource://devtools/client/shared/undo.js:72:16
+endBatch@resource://devtools/client/shared/undo.js:83:11
+do@resource://devtools/client/shared/undo.js:96:10
+TextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:47:29
+process@resource://gre/modules/Promise-backend.js:923:38
+walkerLoop@resource://gre/modules/Promise-backend.js:807:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise-backend.js:743:14
+
+[Parent 14680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14024, Chrome_Chil1562726426811	Marionette	INFO	Stopped listening on port 59499
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726433885	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.W5i7eKIDXuTE"
+1562726434442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726434442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726434442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726434442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726436690	Marionette	INFO	Listening on port 60277
+1562726437120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562719311956%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1562726483919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:18239
+ajax@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:13722
+@https://za.chinahomelife247.com/common/expo/js/web/goods/goods_dialog.js:91:7
+dispatch@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:14129
+add/v.handle@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:10866
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+1562726539870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.KDSY4OPE93aY"
+1562726540462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726540462	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726540463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726540463	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726542956	Marionette	INFO	Listening on port 60485
+1562726543128	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+[Parent 10796, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc[Parent 10796, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14952, Chro1562726592407	Marionette	INFO	Stopped listening on port 60485
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726595705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.KpoO4iOzV6oL"
+1562726596226	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726596226	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726596226	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726596226	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726598697	Marionette	INFO	Listening on port 60630
+1562726598946	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562726612304	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3028, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8888, Chrome_ChildThread] WARN1562726630428	Marionette	INFO	Stopped listening on port 60630
+[GPU 12
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+0
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726648812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.8EVKkcNFD1zg"
+1562726649309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726649309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726649309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726649309	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726651560	Marionette	INFO	Listening on port 60779
+1562726651575	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562726663903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:18239
+ajax@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:13722
+@https://za.chinahomelife247.com/common/expo/js/web/goods/goods_dialog.js:91:7
+dispatch@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:14129
+add/v.handle@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:10866
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+[Parent 336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: chrome://marionette/content/proxy.js, line 275: NS_ERROR_ILLEGAL_VALUE
+[Child 6516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6516, Ch[Parent 336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562726681364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.qcB2Vyw4dpgl"
+1562726682053	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726682053	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726682053	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726682053	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726684357	Marionette	INFO	Listening on port 60902
+1562726684648	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Parent 412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14372, Chrom[Parent 412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5748, Chrome_ChildThr1562726749667	Marionette	INFO	Stopped listening on port 60902
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 9792, Chrome_Child
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726763089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.pamJ0U2lVIgf"
+1562726763660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726763660	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726763661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726763661	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726766045	Marionette	INFO	Listening on port 61070
+1562726766336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+[Parent 9280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9280, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7096, Chrome_ChildThread] WARNIN1562726792416	Marionette	INFO	Stopped listening on port 61070
+[GPU 10812, Chr
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726798542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.mlYsNsSksgBY"
+1562726799123	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726799124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726799124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726799124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726801375	Marionette	INFO	Listening on port 61195
+1562726801794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript error: chrome://marionette/content/proxy.js, line 275: NS_ERROR_ILLEGAL_VALUE
+[Parent 10912, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10912, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_[Child 9656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10912, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 808, Chrome_ChildThread] WARNING: p1562726828858	Marionette	INFO	Stopped listening on port 61195
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726914788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.f2MeQQDN71Nd"
+1562726915321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726915321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726915321	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726915322	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726918000	Marionette	INFO	Listening on port 61403
+1562726918027	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+[Parent 7044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253[Child 3116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3116, Ch[Parent 7044, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7888, Chrom1562726963265	Marionette	INFO	Stopped listening on port 61403
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562726971820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.kEpyPzi4n0H9"
+1562726972347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562726972347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562726972347	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562726972348	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562726974591	Marionette	INFO	Listening on port 61556
+1562726975048	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://za.chinahomelife247.com"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (i1562727132522	Marionette	INFO	Listening on port 61809
+1562727132594	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7048, Chrome_[Child 240, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[Child 240, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[Child 240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 240, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/b[Parent 13308, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8052, Chrome_ChildThread] WARNING: pipe er1562727139153	Marionette	INFO	Stopped listening on port 61809
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 1094
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+NING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14624, Chrome_ChildThread] 1562727131951	Marionette	INFO	Stopped listening on port 61556
+[GPU 1078
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562727153667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.krbtECxZ3Bwa"
+1562727154187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562727154187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562727154188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562727154188	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562727156517	Marionette	INFO	Listening on port 61884
+1562727156894	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562727231052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.92hFFfuVBkj6"
+1562727231573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562727231573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562727231573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562727231573	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Child 8420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8420, Chrome_ChildThread] WARNING: pipe error:1562727234217	Marionette	FATAL	Remote protocol server failed to start: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIServerSocket.asyncListen]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: chrome://marionette/content/server.js :: set acceptConnections :: line 92"  data: no] Stack trace: set acceptConnections()@server.js:92
+start()@server.js:117
+init/<()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/marionette.js:474
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 159: Error: Data is not ready.
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+[GPU 12
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+452
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562727250378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.IxfTuIOd2Acm"
+1562727250902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562727250902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562727250902	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562727250903	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562727253161	Marionette	INFO	Listening on port 62139
+1562727253623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562719311956%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[Parent 9056, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9056, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9056, Gecko_IOThread] WARNING: file z:/task_1562361253/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 9056, Gecko_IOThread] WARNING: file z:/task_1562361253/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 9056, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10576, Chrome_ChildThread] WARNING[Parent 9056, Gecko_IOThread] WARNING: file z:/task_1562361253/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1562734832702	Marionette	INFO	Stopped listening on port 62139
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP1562736371602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.1TmmG1MQ7Wkp"
+1562736372798	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562736372799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562736372799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562736372799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562736375268	Marionette	INFO	Listening on port 64745
+1562736375438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 3768, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15764, Chrome_ChildThreadJavaScript error: resource://gre/modules/Sqlite.jsm, line 834: Error: Connection is not open.
+console.log: "RemoteSettingsWorker error: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code."
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1562736377690	Marionette	INFO	Stopped listening on port 64745
+[GPU 10192, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562737348322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.gqvmtwU7DdVm"
+1562737348847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562737348847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562737348847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562737348847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562737350988	Marionette	INFO	Listening on port 65192
+1562737351053	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562737362945	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:18239
+ajax@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:13722
+@https://za.chinahomelife247.com/common/expo/js/web/goods/goods_dialog.js:91:7
+dispatch@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:14129
+add/v.handle@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:10866
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562737381252	Marionette	INFO	Stopped listening on port 65192
+[Child 14892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12368, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 7780, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562737389504	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.nTnu51X14lZ1"
+1562737390091	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562737390092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562737390092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562737390092	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562737392496	Marionette	INFO	Listening on port 65321
+1562737392795	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562737420327	Marionette	INFO	Stopped listening on port 65321
+[Child 9728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6384, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3040, Chrom
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562738554541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.92Tx5AQbovBp"
+1562738555062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562738555062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562738555063	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562738555063	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562738557405	Marionette	INFO	Listening on port 49410
+1562738557780	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562738568919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562738585305	Marionette	INFO	Stopped listening on port 49410
+[Child 14908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_w
+###!!! [Child][MessageChannel] Error: (msgtype=0x530012,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x600027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 12156,[Parent 10360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9880, Chr[GPU 15204
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562738594140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.LNAQhRCLqZDR"
+1562738594682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562738594682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562738594682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562738594682	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562738596942	Marionette	INFO	Listening on port 49493
+1562738597370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562738607980	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562719311956%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+[C[Parent 13232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13232, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10696, Ch1562740036225	Marionette	INFO	Stopped listening on port 49493
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GP
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562818541575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.cwJjUBqIRgaO"
+1562818543890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562818543890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562818543890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562818543890	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562818548487	Marionette	INFO	Listening on port 53119
+1562818548863	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562818562216	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:18239
+ajax@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:23:13722
+@https://za.chinahomelife247.com/common/expo/js/web/goods/goods_dialog.js:91:7
+dispatch@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:14129
+add/v.handle@https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js:22:10866
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:202:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562803205960%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Child 2668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2668, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4432, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1562818604821	Marionette	INFO	Stopped listening on port 53119
+[GPU 8036, Chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562818615373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.1OiX8thZUmn2"
+1562818615997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562818615997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562818615997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562818615997	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562818618234	Marionette	INFO	Listening on port 53260
+1562818618610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562803205960%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1562818655311	Marionette	INFO	Stopped listening on port 53260
+[Parent 2720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 2720, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562818663103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.aF6PShwyswqY"
+1562818663568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562818663568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562818663568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562818663568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562818665719	Marionette	INFO	Listening on port 53385
+1562818665851	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/plug-in/jquery.js, line 1332: TypeError: e is null
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562818698061	Marionette	INFO	Stopped listening on port 53385
+[Child 13048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t[Parent 12936, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7292, Chrome_Chil[GPU 135
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892207203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.G08GmTJtE1Dq"
+1562892208104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892208104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892208104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892208104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892211519	Marionette	INFO	Listening on port 49181
+1562892211699	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892222865	Marionette	INFO	Stopped listening on port 49181
+[Child 6224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6224, Chr[Parent 11948, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 1
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+6
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892230854	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.N4qTmutdgoIJ"
+1562892231341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892231341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892231341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892231341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892233307	Marionette	INFO	Listening on port 49250
+1562892233589	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892243123	Marionette	INFO	Stopped listening on port 49250
+[Child 12092, Chrome_ChildThre[Parent 7360, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7600, Chrome_Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892304303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.V9a8ypxQD5gq"
+1562892304877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892304877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892304877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892304877	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892307012	Marionette	INFO	Listening on port 49326
+1562892307035	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892317076	Marionette	INFO	Stopped listening on port 49326
+[Parent 13676, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12920, Chrom
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 6912, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892325435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.OdHmib357qsl"
+1562892325957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892325957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892325957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892325958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892328246	Marionette	INFO	Listening on port 49392
+1562892328657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 21: NS_ERROR_NOT_INITIALIZED: 
+1562892333965	Marionette	INFO	Stopped listening on port 49392
+[Child 10016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10788, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9236, Chrome_Chi
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892414633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.8C3ap9XgPaQH"
+1562892415203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892415204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892415204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892415204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892417363	Marionette	INFO	Listening on port 49465
+1562892417371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892437310	Marionette	INFO	Stopped listening on port 49465
+[Child 6780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14104, Chrome_ChildThread] WARNING: p[GPU 73
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+4
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892444724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.w3pKGjn4UqAt"
+1562892445210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892445210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892445211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892445211	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892447812	Marionette	INFO	Listening on port 49549
+1562892447971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892462831	Marionette	INFO	Stopped listening on port 49549
+[Parent 2812, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9024, Chrome_ChildThread] WARNING: pipe
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 16024, Chrome_ChildThread] WARNING: 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892621008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.sDrnlKtsoKDl"
+1562892621493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892621493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892621493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892621493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892623407	Marionette	INFO	Listening on port 49646
+1562892623732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892632905	Marionette	INFO	Stopped listening on port 49646
+[Child 2104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2104, Chrome_C[Parent 15268, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6076, Chrome_ChildT
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 202
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562892642266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.PT1rxGXjhkwY"
+1562892642764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562892642764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562892642764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562892642764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562892644999	Marionette	INFO	Listening on port 49719
+1562892645008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562892654818	Marionette	INFO	Stopped listening on port 49719
+[Child 3088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/ch[Parent 9672, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8320, Ch[GPU 64
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+96
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562893399764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.fecZl93M6dpD"
+1562893400279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562893400279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562893400279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562893400279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562893402575	Marionette	INFO	Listening on port 49977
+1562893402991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 21: NS_ERROR_NOT_INITIALIZED: 
+1562893410971	Marionette	INFO	Stopped listening on port 49977
+[Child 15140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15140, Chrome_ChildThread] WARNING: pi
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1562893417397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DMS\\AppData\\Local\\Temp\\rust_mozprofile.Zxj5m3bfsM94"
+1562893417943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1562893417943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1562893417943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1562893417943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1562893420214	Marionette	INFO	Listening on port 50020
+1562893420640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://za.chinahomelife247.com/common/js/web/plug-in/jquery-1.10.2.min.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1562893429053	Marionette	INFO	Stopped listening on port 50020
+[Child 11260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11260, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task[Parent 15808, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1562361253/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11540, Chrome_ChildThread] WARNING[GP
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+U
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

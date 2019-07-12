@@ -4,12 +4,17 @@ Library        SeleniumLibrary
 Library        Collections
 Library        OperatingSystem
 Library        String
+Library        DatabaseLibrary
 
 *** Variables ***
-
+${DBHost}         chl2019.com
+${DBName}         a33d41d6_o2osite
+${DBPass}         LogosPodiaBeefEmber86
+${DBPort}         3306
+${DBUser}         a33d41d6_o2os
 
 *** Test Cases ***
-CSVLoopTest
+MainProgram
     ${contents}=     Get File    data.csv
     @{lines}=        Split to lines  ${contents}
 	:FOR       ${line}  IN  @{lines}
@@ -43,6 +48,22 @@ CSVLoopTest
     \    ${value}=  Evaluate             random.randint(5, 15)    random
     \    sleep    ${value} 
     \    Close Browser
+
+DBTesting
+    Connect To Database    pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
+    ${num} =    Row Count    SELECT * FROM EVENTS; 
+    @{output} =    Query    SELECT * FROM EVENTS; 
+    Log    ${num}
+    FOR    ${index}    IN RANGE    ${num}
+    \    Log    ${output[${index}][0]}
+    Disconnect From Database
     
-	
+CSVFileTesting
+	${contents}=     Get File    data.csv
+    @{lines}=        Split to lines  ${contents}
+	:FOR       ${line}  IN  @{lines}
+	\    @{COLUMNS}=                     Split String             ${LINE}        separator=,
+	\    ${URL}=                         Get From List            ${COLUMNS}     0
+	\    ${firstName}=                   Get From List            ${COLUMNS}     1
+	\    ${email}=                       Get From List            ${COLUMNS}     2
     

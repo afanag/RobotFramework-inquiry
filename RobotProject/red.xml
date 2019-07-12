@@ -3,6 +3,7 @@
     <configVersion>2</configVersion>
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/Program Files/Python37/Lib/site-packages/SeleniumLibrary/__init__.py"/>
+    <referencedLibrary type="PYTHON" name="DatabaseLibrary" path="C:/Program Files/Python37/Lib/site-packages/DatabaseLibrary/__init__.py"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>

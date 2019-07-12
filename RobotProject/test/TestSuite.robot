@@ -23,29 +23,27 @@ CSVLoopTest
 	\    ${countryId}=                   Get From List            ${COLUMNS}     5
 	\    ${mobile}=                      Get From List            ${COLUMNS}     6
 	\    ${prodQuantitya}=               Get From List            ${COLUMNS}     7
-	# \    Open Browser                    ${URL}                   ff  
-    # \    Set Browser Implicit Wait       10
-    # \    Click Element                   id=enquiry-dialog-btn
-    # \    Click Element                   id=register        
-    # \    Input Text                      id=firstName             ${firstName}
-    # \    Input Text                      id=email                 ${email}
-    # \    Input Text                      id=name                  ${name}
-    # \    Input Password                  id=password              ${password}
-    # \    Click Element                   name=countryId
-    # \    Select From List By Value       name=countryId           ${countryId}
-    # \    Input Text                      id=mobile                ${mobile}
-    # \    ${value}=  Evaluate             random.randint(3, 7)    random
-    # \    sleep    ${value} 
-    # \    Click Button                    id=id_save_button
-    # \    ${value}=  Evaluate             random.randint(1, 5)    random
-    # \    sleep    ${value} 
-    # \    Input Text                      id=prodQuantitya         ${prodQuantitya}
-    # \    Click Element                   id=submitBtn        
-    # \    ${value}=  Evaluate             random.randint(5, 15)    random
-    # \    sleep    ${value} 
-    # \    Close Browser
-    \    Log    ${LINE}
-    \    Append To File  finish.csv  \n${LINE}
+	\    Open Browser                    ${URL}                   ff  
+    \    Set Browser Implicit Wait       10
+    \    Click Element                   id=enquiry-dialog-btn
+    \    Click Element                   id=register        
+    \    Input Text                      id=firstName             ${firstName}
+    \    Input Text                      id=email                 ${email}
+    \    Input Text                      id=name                  ${name}
+    \    Input Password                  id=password              ${password}
+    \    Click Element                   name=countryId
+    \    Select From List By Value       name=countryId           ${countryId}
+    \    Input Text                      id=mobile                ${mobile}
+    \    ${value}=  Evaluate             random.randint(3, 7)    random
+    \    sleep    ${value} 
+    \    Click Button                    id=id_save_button
+    \    ${value}=  Evaluate             random.randint(1, 5)    random
+    \    sleep    ${value} 
+    \    Input Text                      id=prodQuantitya         ${prodQuantitya}
+    \    Click Element                   id=submitBtn        
+    \    ${value}=  Evaluate             random.randint(5, 15)    random
+    \    sleep    ${value} 
+    \    Close Browser
     
 	
     

@@ -18,10 +18,10 @@ ${URLS}
 ${password}
 
 *** Test Cases ***
-MainProgram
+MainProgramForInquiry
     Connect To Database        pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
-    ${num}=       Row Count    SELECT * FROM inquiries_link; 
-    @{output}=    Query        SELECT * FROM inquiries_link;
+    ${num}=       Row Count    SELECT * FROM inquiry_link; 
+    @{output}=    Query        SELECT * FROM inquiry_link;
 	:FOR	      ${index}     IN RANGE                        ${num}
 	\    Set Test Variable               ${INQUIRY_ID}            ${output[${index}][0]}
 	\    Set Test Variable               ${firstName}             ${output[${index}][1]}
@@ -33,7 +33,9 @@ MainProgram
 	\    Set Test Variable               ${message}               ${output[${index}][7]}
 	\    Set Test Variable               ${URLS}                  ${output[${index}][8]}
 	\    Set Test Variable               ${URLCNT}                ${output[${index}][9]}
-	\    ${pass}                         Generate Random String   8                              [LETTERS]
+	\    ${pass1}                        Generate Random String   5                              [LETTERS][NUMBERS]
+	\    ${pass2}                        Evaluate                 random.randint(10,999)         random
+	\    ${pass}=                        Set Variable             ${pass1}${pass2}
 	\    Set Test Variable               ${prod}                  ${prodQuantitya}  
 	\    Set Test Variable               ${mess}                  ${message}  
 	\    Set Test Variable               ${password}              ${pass}  
@@ -59,12 +61,96 @@ MainProgram
     \    sleep                           ${value} 
     \    ${register}=                    Get Element Count        id=message_diaog    
     \    Log                             ${register}
-    \    Run Keyword If                  ${register}>0            RegisteredUser    ${INQUIRY_ID}   ELSE                    NewUser
+    \    Run Keyword If                  ${register}>0            RegisteredUser    ${INQUIRY_ID}   ELSE                    UserInquiryDataInsert
+    \    MoreProductLoop                 ${URLCNT}
+    \    UpdateInquiryMessage            ${INQUIRY_ID}	Submitted	${password}
+    \    Close All Browsers
+    Disconnect From Database
+    
+MainProgramForTokenInquiry
+    Connect To Database        pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
+    ${num}=       Row Count    SELECT * FROM inquiry_token; 
+    @{output}=    Query        SELECT * FROM inquiry_token;
+	:FOR	      ${index}     IN RANGE                        ${num}
+	\    Set Test Variable               ${INQUIRY_ID}            ${output[${index}][0]}
+	\    Set Test Variable               ${prodQuantitya}         ${output[${index}][1]}
+	\    Set Test Variable               ${message}               ${output[${index}][2]}
+	\    Set Test Variable               ${URLS}                  ${output[${index}][3]}
+	\    Set Test Variable               ${URLCNT}                ${output[${index}][4]}
+	\    Set Test Variable               ${COUNTRY}               ${output[${index}][5]}
+	\    Set Test Variable               ${TOKEN}                 ${output[${index}][6]}
+	\    Set Test Variable               ${prod}                  ${prodQuantitya}  
+	\    Set Test Variable               ${mess}                  ${message}  
+	\    ${URL}=                         Set Variable             http://${COUNTRY}.chinahomelife247.com/auth/2/${TOKEN}.html?jumpTo=/buyer/home/homeState.page
+	\    Open Browser                    ${URL}                   ff  
+    \    ${value}=                       Evaluate                 random.randint(1, 5)             random
+    \    sleep                           ${value} 
+	\    @{COLUMNS}=                     Split String             ${URLS}                        separator=,
+	\    ${URL}=                         Get From List            ${COLUMNS}                     0
+	\    Go To	                         ${URL} 
+    \    Set Browser Implicit Wait       10
+    \    Click Element                   id=enquiry-dialog-btn
+    \    ${value}=                       Evaluate                 random.randint(5, 7)             random
+    \    sleep                           ${value} 
+    \    GetInquiryWindow
+    \    UserInquiryDataInsert
+    \    ${value}=                       Evaluate                 random.randint(1, 5)             random
+    \    sleep                           ${value} 
     \    MoreProductLoop                 ${URLCNT}
     \    UpdateInquiryMessage            ${INQUIRY_ID}	Submitted	${password}
     \    Close All Browsers
     Disconnect From Database
 
+MainProgramForRFQ
+    Connect To Database        pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
+    ${num}=       Row Count    SELECT * FROM rfq_link; 
+    @{output}=    Query        SELECT * FROM rfq_link;
+	:FOR	      ${index}     IN RANGE	    ${num}
+	\    Set Test Variable               ${RFQ_ID}                ${output[${index}][0]}
+	\    Set Test Variable               ${firstName}             ${output[${index}][1]}
+	\    Set Test Variable               ${email}                 ${output[${index}][2]}
+	\    Set Test Variable               ${name}                  ${output[${index}][3]}
+	\    Set Test Variable               ${countryId}             ${output[${index}][4]}
+	\    Set Test Variable               ${mobile}                ${output[${index}][5]}
+	\    Set Test Variable               ${URL}                   ${output[${index}][6]}
+	\    Set Test Variable               ${goodsName}             ${output[${index}][7]}
+	\    ${pass1}                        Generate Random String   5                              [LETTERS][NUMBERS]
+	\    ${pass2}                        Evaluate                 random.randint(10,999)         random
+	\    ${pass}=                        Set Variable             ${pass1}${pass2}
+	\    Open Browser                    ${URL}                   ff  
+    \    Set Browser Implicit Wait       10
+    \    Input Text                      id=goodsName             ${goodsName}
+    \    ${value}=                       Evaluate                 random.randint(1, 5)             random
+    # \    sleep                           ${value} 
+    \    Click Element                   class=button190213
+    \    ${value}=                       Evaluate                 random.randint(5, 7)             random
+    \    sleep                           ${value} 
+    \    ${purchaseQuantity}=            Evaluate                 random.randint(100, 1000)             random
+    \    Input Text                      id=purchaseQuantity      ${purchaseQuantity}
+    \    Input Text                      id=description           ${goodsName}
+    \    Click Element                   name=unit
+    \    Select From List By Label       name=unit                Unit
+    # \    sleep                           ${value} 
+    \    Click Element                   id=submitBtn0
+    \    Set Browser Implicit Wait       10
+    \    sleep                           ${value} 
+    \    Click Element                   id=t20190328215607
+    \    ${pass1}                        Generate Random String   5                              [LETTERS][NUMBERS]
+	\    ${pass2}                        Evaluate                 random.randint(10,999)         random
+	\    ${password}=                    Set Variable             ${pass1}${pass2}
+    \    Input Text                      id=firstName             ${firstName}
+    \    Input Text                      id=email                 ${email}
+    \    Input Text                      id=name                  ${name}
+    \    Input Password                  id=password              ${password}
+    \    Input Text                      id=mobile                ${mobile}
+    \    ${value}=                       Evaluate                 random.randint(5, 7)             random
+    # \    sleep                           ${value} 
+    \    Click Element                   id=id_save_button
+    \    sleep    	                     20
+    \    ${Windowtitles}                 Get Window Titles
+    \    Run Keyword If                  '${Windowtitles[0]}' == 'China Homelife & Machinex 247 / O2O - Buyer Center'   UpdateRfqMessage    ${RFQ_ID}    Submitted    ${pass}     ELSE  UpdateRfqMessage    ${RFQ_ID}    NotSubmitted    ${pass}
+    \    Close All Browsers
+    Disconnect From Database
 
 DBTesting
     Connect To Database    pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
@@ -91,17 +177,18 @@ CSVFileTesting
 	\    Log    ${email}
 	
 BrowserTesting
-	Open Browser                    https://za.chinahomelife247.com/product/Handheld-Shower-Head-Unique-Design-of-Add-Shower-Gel-10125295.html?st=0&title=Handheld%20Shower%20Head%20Unique%20Design%20of%20Add%20Shower%20Gel                   ff  
-    Set Browser Implicit Wait       10
-    Click Element                   id=enquiry-dialog-btn
-    Click Element                   id=register
-    ${value}=                       Evaluate                 random.randint(5, 7)             random
-    sleep                           ${value} 
-    ${nocategory}=                  Get Element Count        name=categoryWithNoSearchResult    
-    Run Keyword If                  ${nocategory}>0          SelectCategory
-
+    Open Browser    https://za.chinahomelife247.com/buyer/main.page?jumpto=%2Fbuyer%2Fhome%2FhomeState.page    ff
+    sleep     15       
+    ${Windowtitles}                 Get Window Titles
+    Log    ${Windowtitles[0]}
+    Run Keyword If                  '${Windowtitles[0]}' == 'China Homelife & Machinex 247 / O2O - Buyer Center'   Testing    t    ELSE  Testing    f    
+    
 
 *** Keywords ***
+Testing
+    [Arguments]    ${inquiry_id}
+    Log 	       ${inquiry_id}
+
 RegisteredUser
     [Arguments]    ${inquiry_id}
     ${err}=                         Get Text    id=message_diaog
@@ -109,10 +196,13 @@ RegisteredUser
     Close All Browsers
     Continue For Loop
     
-NewUser
-    Input Text                      id=prodQuantitya         ${prod}
+UserInquiryDataInsert
+    Input Text                      id=prodQuantitya              ${prod}
+    Input Text                      id=bottomInfoTextarea         ${mess}
+    ${value}=  Evaluate             random.randint(5, 15)        random
+    sleep    ${value} 
     Click Element                   id=submitBtn        
-    ${value}=  Evaluate             random.randint(5, 15)    random
+    ${value}=  Evaluate             random.randint(5, 15)        random
     sleep    ${value} 
     
 MoreProductLoop
@@ -127,10 +217,15 @@ MoreProduct
     Go To	                        ${URL}
     Set Browser Implicit Wait       10
     Click Element                   id=enquiry-dialog-btn
-    Sleep                           5
+    GetInquiryWindow
+    
+GetInquiryWindow
+    ${value}=                       Evaluate                 random.randint(5, 15)             random
+    Sleep                           ${value}
 	Get Window Titles
 	Select Window                   title=Smart Sourcing from China, the largest Online to Offline B2B Foreign Trade Marketplace, China Homelife 247
-    NewUser
+	Set Browser Implicit Wait       10
+    UserInquiryDataInsert
     
 SelectCategory
     Click Element                   name=categoryWithNoSearchResult
@@ -140,5 +235,10 @@ UpdateInquiryMessage
     [Arguments]    ${inquiry_id}    ${message}    ${password}
     Connect To Database            pymysql               ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
     Execute SQL String             insert into inquiry_message values ('${inquiry_id}','${message}','${password}')
+    
+UpdateRfqMessage
+    [Arguments]    ${rfq_id}    ${message}    ${password}
+    Connect To Database            pymysql               ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
+    Execute SQL String             insert into rfq_message values ('${rfq_id}','${message}','${password}')
     
     

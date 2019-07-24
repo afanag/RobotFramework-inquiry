@@ -20,9 +20,9 @@ ${password}
 *** Test Cases ***
 MainProgramForInquiry
     Connect To Database        pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
-    ${num}=       Row Count    SELECT * FROM inquiry_link; 
-    @{output}=    Query        SELECT * FROM inquiry_link;
-	:FOR	      ${index}     IN RANGE                        ${num}
+    ${num}=                    Row Count    SELECT * FROM inquiry_link; 
+    @{output}=                 Query        SELECT * FROM inquiry_link;
+	:FOR    ${index}	IN RANGE    ${num}
 	\    Set Test Variable               ${INQUIRY_ID}            ${output[${index}][0]}
 	\    Set Test Variable               ${firstName}             ${output[${index}][1]}
 	\    Set Test Variable               ${email}                 ${output[${index}][2]}
@@ -62,7 +62,7 @@ MainProgramForInquiry
     \    ${register}=                    Get Element Count        id=message_diaog    
     \    Log                             ${register}
     \    Run Keyword If                  ${register}>0            RegisteredUser    ${INQUIRY_ID}   ELSE                    UserInquiryDataInsert
-    \    MoreProductLoop                 ${URLCNT}
+    \    Run Keyword And Ignore Error    MoreProductLoop          ${URLCNT}
     \    UpdateInquiryMessage            ${INQUIRY_ID}	Submitted	${password}
     \    Close All Browsers
     Disconnect From Database
@@ -71,7 +71,7 @@ MainProgramForTokenInquiry
     Connect To Database        pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
     ${num}=       Row Count    SELECT * FROM inquiry_token; 
     @{output}=    Query        SELECT * FROM inquiry_token;
-	:FOR	      ${index}     IN RANGE                        ${num}
+	:FOR    ${index}	IN RANGE    ${num}
 	\    Set Test Variable               ${INQUIRY_ID}            ${output[${index}][0]}
 	\    Set Test Variable               ${prodQuantitya}         ${output[${index}][1]}
 	\    Set Test Variable               ${message}               ${output[${index}][2]}
@@ -96,8 +96,8 @@ MainProgramForTokenInquiry
     \    UserInquiryDataInsert
     \    ${value}=                       Evaluate                 random.randint(1, 5)             random
     \    sleep                           ${value} 
-    \    MoreProductLoop                 ${URLCNT}
-    \    UpdateInquiryMessage            ${INQUIRY_ID}	Submitted	${password}
+    \    Run Keyword And Ignore Error    MoreProductLoop          ${URLCNT}
+    \    UpdateInquiryTokenMessage       ${INQUIRY_ID}    Submitted	
     \    Close All Browsers
     Disconnect From Database
 
@@ -120,12 +120,12 @@ MainProgramForRFQ
 	\    Open Browser                    ${URL}                   ff  
     \    Set Browser Implicit Wait       10
     \    Input Text                      id=goodsName             ${goodsName}
-    \    ${value}=                       Evaluate                 random.randint(1, 5)             random
+    \    ${value}=                       Evaluate                 random.randint(1, 5)           random
     # \    sleep                           ${value} 
     \    Click Element                   class=button190213
-    \    ${value}=                       Evaluate                 random.randint(5, 7)             random
+    \    ${value}=                       Evaluate                 random.randint(5, 7)           random
     \    sleep                           ${value} 
-    \    ${purchaseQuantity}=            Evaluate                 random.randint(100, 1000)             random
+    \    ${purchaseQuantity}=            Evaluate                 random.randint(100, 1000)      random
     \    Input Text                      id=purchaseQuantity      ${purchaseQuantity}
     \    Input Text                      id=description           ${goodsName}
     \    Click Element                   name=unit
@@ -234,11 +234,16 @@ SelectCategory
 UpdateInquiryMessage
     [Arguments]    ${inquiry_id}    ${message}    ${password}
     Connect To Database            pymysql               ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
-    Execute SQL String             insert into inquiry_message values ('${inquiry_id}','${message}','${password}')
+    Execute SQL String             replace into inquiry_message values ('${inquiry_id}','${password}','${message}','NONE');
+    
+UpdateInquiryTokenMessage
+    [Arguments]    ${inquiry_id}    ${message}
+    Connect To Database            pymysql               ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
+    Execute SQL String             update inquiry_message set MESSAGE2 = '${message}' where INQUIRY_ID = '${inquiry_id}';
     
 UpdateRfqMessage
     [Arguments]    ${rfq_id}    ${message}    ${password}
     Connect To Database            pymysql               ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
-    Execute SQL String             insert into rfq_message values ('${rfq_id}','${message}','${password}')
+    Execute SQL String             replace into inquiry_message values ('${rfq_id}','${password}','${message}','NONE');
     
     

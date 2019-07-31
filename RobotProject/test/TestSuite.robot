@@ -16,7 +16,7 @@ ${DBUser}         root
 *** Test Cases ***
 DBTesting
     Connect To Database    pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
-    Execute SQL String             replace into inquiry_message values ('76','Token','Submitted',current_timestamp()); 
+    Execute SQL String             replace into inquiry_message values ('76','Token','Submitted',current_timestamp());  
     # ${num} =    Row Count    SELECT * FROM inquiries_link; 
     # @{output} =    Query    SELECT * FROM inquiries_link; 
     # Log    ${num}

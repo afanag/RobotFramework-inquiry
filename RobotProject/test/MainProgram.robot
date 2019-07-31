@@ -24,7 +24,7 @@ MainProgramForInquiry
     Connect To Database        pymysql    ${DBName}    ${DBUser}    ${DBPass}    ${DBHost}    ${DBPort}
     ${num}=       Row Count    SELECT * FROM inquiry_token WHERE COUNTRY = '${RUN_COUNTRY}'; 
     @{output}=    Query        SELECT * FROM inquiry_token WHERE COUNTRY = '${RUN_COUNTRY}';
-	:FOR    ${index}	IN RANGE    ${num} 
+	:FOR    ${index}	IN RANGE    ${num}  
 	\    Log    Loop ${index} of ${num}
 	\    Set Test Variable               ${INQUIRY_ID}            ${output[${index}][0]}
 	\    Set Test Variable               ${prodQuantitya}         ${output[${index}][1]}
